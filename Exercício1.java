@@ -202,9 +202,44 @@ public void exercício4(){
         }
         System.out.println("seu número é o "+nomeNum);
         }
-     
-    {
+        // 4- Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+        // -Salários até R$ 1280,00 (incluindo): aumento de 20%;
+        // -Salários entre R$ 1280,00 e R$1700,00: aumento de 15%;
+        // -Salários entre R$ 1700,00 e R$ 2500,00: aumento de 10%;
+        // -Salários de R$ 2500,00 em diante: aumento de 5% 
         
-    }
+        // Após o aumento ser realizado; informe na tela:
+        // *O salário antes do reajuste;
+        // *O percentual de aumento aplicado;
+        // *O valor do aumento;
+        // *O novo salário, após o aumento.  
+        public void exercício4Ex() {
+            System.out.println("Digite um valor");
+            double valor = sc.nextDouble();
+            if(valor>=0){
+                System.out.println("Seu número " + valor+ " é positivo");
+            } else {
+                System.out.println("Seu número "+valor+" é negativo" );
+            }
+        }
+        // 8- Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato.  
+        public void exercício5Ex() {
+            System.out.println("Insira o preço do primeiro produto");
+            double produto1 = sc.nextDouble();
+            System.out.println("Insira o preço do segundo produto");
+            double produto2 = sc.nextDouble();
+            System.out.println("Insira o preço do terceiro produto");
+            double produto3 = sc.nextDouble();
+            if(produto1<produto2 && produto1<produto3){
+                System.out.println("compre o primeiro produto R$ " + produto1);
+            }
+            if(produto2<produto1 && produto2<produto3){
+                System.out.println("compre o segundo produto R$ " + produto2);
+            }
+            if(produto3<produto1 && produto3<produto2){
+                System.out.println("compre o terceiro produto R$ " + produto3);
+            }
+            
+        }
 
 }
