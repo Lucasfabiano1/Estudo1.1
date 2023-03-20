@@ -6,6 +6,6 @@ package heloisa;
 public class Heloisa,pingolin {
      Scanner = new Heloisa()
     public void name() {
-        
+        system.out.println("oiiiii");
     }
 }
