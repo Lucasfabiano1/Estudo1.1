@@ -14,5 +14,6 @@ public class App {
         // obj1.exercícioGo();
         // obj1.exercício4Ex();
         obj1.exercício5Ex();
+        obj1.exercício1();
     }
 }

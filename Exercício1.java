@@ -239,7 +239,7 @@ public void exercício4(){
             if(produto3<produto1 && produto3<produto2){
                 System.out.println("compre o terceiro produto R$ " + produto3);
             }
-            
+            System.out.println("sim");
         }
 
 }
